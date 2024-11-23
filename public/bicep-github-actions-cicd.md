@@ -2,12 +2,12 @@
 title: 【Azure × GitHub】インフラの CI / CD を試してみる
 tags:
   - Azure
+  - CICD
   - GitHubActions
   - Bicep
-  - CI/CD
 private: false
-updated_at: ""
-id: null
+updated_at: '2024-11-23T19:51:03+09:00'
+id: 35a3782eda7ab36aa03e
 organization_url_name: null
 slide: false
 ignorePublish: false
@@ -36,7 +36,7 @@ Azure Bicep と GitHub ワークフローを利用すれば、インフラも CI
 6. GitHub にシークレットを登録
 7. デプロイテンプレートの作成
 8. GitHub Action 用のワークフローを作成
-9. デプロイテンプレートを作成する。（この記事では Bicep を利用します。）
+9. デプロイテンプレートを作成する。（この記事では Bicep を利用します。
 
 # 実装
 
