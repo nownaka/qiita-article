@@ -1,10 +1,10 @@
 ---
 title: 【Azure × GitHub】インフラの CI / CD を試してみる
 tags:
-  - "Azure"
-  - "GitHubActions"
-  - "Bicep"
-  - "CI/CD"
+  - Azure
+  - GitHubActions
+  - Bicep
+  - CI/CD
 private: false
 updated_at: ""
 id: null
