@@ -6,7 +6,7 @@ tags:
   - GitHubActions
   - Bicep
 private: false
-updated_at: '2024-11-23T19:51:03+09:00'
+updated_at: "2024-11-23T19:51:03+09:00"
 id: 35a3782eda7ab36aa03e
 organization_url_name: null
 slide: false
@@ -277,6 +277,13 @@ Azure CLI を使った操作にも慣れていきたいところです。
 
 最後まで見ていただきありがとうございました。
 誰かの役に立てば幸いです。
+
+### テンプレート
+
+本記事で実施した手順は、リポジトリとして保存・公開しています。
+よければ参考にしてください。
+
+https://github.com/nownaka/azure-cicd-sample
 
 # 参考
 
