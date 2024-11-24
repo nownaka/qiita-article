@@ -6,7 +6,7 @@ tags:
   - GitHubActions
   - Bicep
 private: false
-updated_at: '2024-11-23T19:56:51+09:00'
+updated_at: "2024-11-23T19:56:51+09:00"
 id: 35a3782eda7ab36aa03e
 organization_url_name: null
 slide: false
@@ -36,7 +36,6 @@ Azure Bicep と GitHub ワークフローを利用すれば、インフラも CI
 6. GitHub にシークレットを登録
 7. デプロイテンプレートの作成
 8. GitHub Action 用のワークフローを作成
-9. デプロイテンプレートを作成する。（この記事では Bicep を利用します。
 
 # 実装
 
@@ -266,7 +265,7 @@ jobs:
 
 ![image-2.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2513223/a8990bc0-0271-0aa0-d386-26a7c521cbbf.png)
 
-### Azure リソースグループ デプロイ結果
+#### Azure リソースグループ デプロイ結果
 
 ![image-3.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/2513223/b432a59e-179e-2a15-f4c3-733cdafb40b3.png)
 
