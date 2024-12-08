@@ -6,7 +6,7 @@ tags:
   - GitHubActions
   - Bicep
 private: false
-updated_at: "2024-11-23T19:56:51+09:00"
+updated_at: "2024-11-25T07:00:32+09:00"
 id: 35a3782eda7ab36aa03e
 organization_url_name: null
 slide: false
