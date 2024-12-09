@@ -3,7 +3,7 @@ title: 【Azure】Azure CLI を利用してカスタムロールを作成・更�
 tags:
   - Azure
 private: false
-updated_at: "2024-11-25T07:00:32+09:00"
+updated_at: '2024-11-25T07:00:32+09:00'
 id: 189265b20f47174989f5
 organization_url_name: null
 slide: false
