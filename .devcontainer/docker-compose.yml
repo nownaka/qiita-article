@@ -1,0 +1,17 @@
+services:
+    qiita_cli:
+        image: qiita_cli
+        container_name: qiita_cli
+        build:
+            context: ..
+            dockerfile: .devcontainer/Dockerfile
+        volumes:
+            - ../:/workspace:delegated
+            - ../credentials.json:/root/.config/qiita-cli/credentials.json
+            - ../qiita.config.devcontainer.json:/workspace/qiita.config.json
+            - /dev/null:/workspace/.vscode/tasks.json
+            - /dev/null:/workspace/qiita.config.devcontainer.json
+        command: npx qiita preview
+        ports:
+            - 8888:8888
+        restart: always
