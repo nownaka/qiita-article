@@ -4,8 +4,8 @@ tags:
   - Docker
   - devcontainer
 private: false
-updated_at: ''
-id: null
+updated_at: '2024-12-09T22:56:39+09:00'
+id: 44fd408a19965d925404
 organization_url_name: null
 slide: false
 ignorePublish: false
