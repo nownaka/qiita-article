@@ -1,33 +1,50 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
 {
-	"name": "Node.js",
-	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
-	"features": {
-		"ghcr.io/devcontainers/features/github-cli:1": {}
-	},
+  "name": "Qiita CLI",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  // "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "qiita_cli",
+  "workspaceFolder": "/workspace/",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
 
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [],
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // "forwardPorts": [],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "yarn install",
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "yarn install",
 
-	// Configure tool-specific properties.
-	// "customizations": {},
+  "initializeCommand": "open http://localhost:8888",
 
-	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yzhang.markdown-all-in-one",
+        "ryokat3.vscode-qiita-markdown-preview",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "taichi.vscode-textlint",
+        "DavidAnson.vscode-markdownlint",
+        "streetsidesoftware.code-spell-checker",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
 
-	"mounts": [
-		{
-		"source": "${localWorkspaceFolder}/credentials.json",
-		"target": "/home/node/.config/qiita-cli/credentials.json",
-		"type": "bind"
-		}
-  ]
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  // "remoteUser": "root"
+
+  // "mounts": [
+  // 	{
+  // 	"source": "${localWorkspaceFolder}/credentials.json",
+  // 	"target": "/root/.config/qiita-cli/credentials.json",
+  // 	"type": "bind"
+  // 	}
+  // ]
 }
